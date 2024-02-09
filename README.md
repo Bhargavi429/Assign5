@@ -9,12 +9,15 @@ t_A <-t(A)
 t_B <-t(B)
 
 a <-1:ncol(A)
+
 b <-1:ncol(B)
 
 P <-A%*%a
+
 Q <-B%*%b
 
 a <-1:nrow(A)
+
 b <-1:nrow(B)
 
 R <-A%*%B
